@@ -1,24 +1,24 @@
 #include <iostream>
 
-// Homework 5 — Your Name
-// CIS 5 Week 05 · Rule engine lite
+Conditionals, is a condition,  if something is true or false
+  
+If its true, it runs, if not it doesn't run
 
-int main() {
-  int score = 0;
-  int attendance = 0;
+IF - If true, it runs (1st Option)
+ELSE IF - It runs because (Option 1) fails, (2nd Option)
+ELSE - Default if all else fails
 
-  // TODO: cout question, then cin, for score and for attendance
+What is a bool?
+  Bool stands for Boolean, just means (True or False)
+  Last week, we just had it be 0 or 1, now we are going to use it because last time it didn't really make sense
 
-  // Edge values: (list just-below / exactly-on / just-above for each threshold here)
+int age = 20;
+bool adult = age >= 18;
+std::cout << adult; // 1 or 0 // Recall 0 is True, 1 is False
 
-  // TODO: invalid branch FIRST — out-of-range input gets its own message
-  //   if (score < 0 || score > 100) { ... }
+double gpa = 3.8;
+bool honors = gpa >= 3.5
+if (honors) { . . . }
 
-  // TODO: else if ( ... && ... ) { ... }   best outcome
-  // TODO: else if ( ... ) { ... }          middle outcome
-  // TODO: else { ... }                     the rest
 
-  // TODO: two comments that explain a choice (why invalid first, why && not ||, why >= not >)
-
-  return 0;
-}
+                     

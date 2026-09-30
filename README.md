@@ -53,7 +53,7 @@ Your rules and messages can be different. The shape is the same: two inputs, an 
 ## Decision table (fill this in with your rules)
 | Lab Score | Homework Score | Result |
 |------:|-----------:|--------|
-| -3 | 90 | invalid score |
+| -3 | 101 | invalid score |
 | 72 | 90 | pass |
 | 72 | 40 | You passed one of these, you have work to do! |
 | 55 | 65 | fail |

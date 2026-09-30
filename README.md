@@ -51,14 +51,14 @@ Result: invalid score
 Your rules and messages can be different. The shape is the same: two inputs, an invalid guard first, then a chain where exactly one branch prints.
 
 ## Decision table (fill this in with your rules)
-| Score | Attendance | Result |
+| Lab Score | Homework Score | Result |
 |------:|-----------:|--------|
 | -3 | 90 | invalid score |
 | 72 | 90 | pass |
-| 72 | 40 | warn — attendance too low |
-| 55 | 90 | fail |
-| 69 | 90 | ? (your edge) |
-| 70 | 90 | ? (your edge) |
+| 72 | 40 | You passed one of these, you have work to do! |
+| 55 | 65 | fail |
+| 69 | 69 | You failed |
+| 70 | 71 | You passed |
 
 One row per path, plus your edge values. The grader reads the table, then runs two rows to check.
 
